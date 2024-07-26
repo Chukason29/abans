@@ -114,9 +114,15 @@ header i, nav i{
     margin: 0;
     padding: 0;
 }
+.footer ul li{
+    margin-top: .75rem;
+}
 .footer ul a{
     color: #ffffff;
     text-decoration: none;
     font-size: .9rem;
+}
+.footer i{
+    margin-right: 5px;
 }
 
