@@ -114,6 +114,9 @@ header i, nav i{
     margin: 0;
     padding: 0;
 }
+.footer img{
+    width: 300px;
+}
 .footer h3{
     margin-bottom: 2rem;
 }
