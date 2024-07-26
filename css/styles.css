@@ -9,7 +9,8 @@ a{
     font-family: "Montserrat", sans-serif;
 }
 :root{
-    --main-color: rgb(1, 24, 1);
+    --main-color: rgb(0, 13, 0);
+    --orange-color: rgb(224, 60, 0);
 }
 header{
     display: flex;
@@ -68,7 +69,7 @@ nav a:hover{
 }
 #order-request{
     color: white;
-    background-color: rgb(224, 60, 0);
+    background-color: var(--orange-color);
     padding: .5rem 2rem;
     border-radius: 40px;
     font-size: .82rem;
@@ -87,7 +88,10 @@ header i, nav i{
     margin-right: 3px;
 }
 #main-banner{
-    height: 90vh;
+
+}
+#main-banner img{
+    max-width: 100%;
 }
 
 
@@ -102,44 +106,85 @@ header i, nav i{
     background-color: var(--main-color);
     font-family: "Montserrat", sans-serif;
     color: #ffffff;
-    padding-block: 2rem;
 }
 .footer-section-one{
-    display: flex;
-    justify-content: center;
-    gap: 7rem;
+    padding: 1rem 3.5rem;
 }
-.footer ul{
+.footer-section-one h1{
+    font-size: 2.8rem;
+}
+.footer-section-one a{
+    font-size: 1.2rem;
+    background-color: var(--orange-color);
+    color: #ffffff;
+    text-decoration: none;
+    padding: .5rem 2rem;
+    position: relative;
+    top: -10px;
+}
+.footer-section-one a:hover{
+    color: #ffffff;
+    background-color: rgb(0, 177, 0);
+}
+.footer-section-two{
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+    padding: .2rem 3.5rem;
+    width: 100%;
+}
+.footer-section-two > div{
+    width: 20%;
+}
+.footer-section-two ul{
     list-style: none;
     margin: 0;
     padding: 0;
 }
-.footer img{
-    width: 300px;
+.footer-section-two .explore{
+    display: flex;
+    gap: 1.5rem;
 }
-.footer h3{
-    margin-bottom: 2rem;
+.explore > div:nth-child(2){
+    display: none;
 }
-.footer ul li{
-    margin-top: .75rem;
-}
-.footer ul a{
+
+.footer-section-two ul a{
+    display:inline-block;
     color: #ffffff;
+    font-size: .9rem;
+    padding-block-end: .3rem;
     text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
+.footer-section-two p{
+    font-family: "Montserrat", sans-serif;
     font-size: .9rem;
 }
-.footer i{
-    margin-right: 5px;
-}
-.footer-section-two{
+.footer-socials p{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
-    text-align: center;
-    padding: .75rem 0;
-    color: #ffffff;
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.2rem;
+    gap: 1rem;
 }
+#footer-form input{
+    background-color: rgb(1, 1, 63);
+    border: none;
+    color: #fff;
+    width: 270px;
+    padding: .5rem;
+    border-bottom: 1px solid #fff;
+}
+#footer-form button{
+    background-color: var(--main-color);
+    border: 1px solid #fff;
+    font-size: .95rem;
+    padding: .2rem 1rem;
+    color: #fff;
+}
+#footer-form button:hover{
+    color: #999;
+}
+.footer-section-two ul .investment{
+    background-color: #fff;
+}
+
 
