@@ -11,8 +11,16 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.2rem 3rem;
+    padding: 1rem 6rem;
     background-color: var(--main-color);
+}
+header a{
+    color: aliceblue;
+    font-size: .89rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    text-decoration: none;
 }
 header ul{
     display: flex;
@@ -20,7 +28,23 @@ header ul{
     align-items: center;
     list-style: none;
     color: aliceblue;
-    font-size: .85rem;
+    font-size: .89rem;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 6rem;
+}
+nav img{
+    width: 70px;
+}
+nav ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
 }
