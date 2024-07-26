@@ -131,4 +131,15 @@ header i, nav i{
 .footer i{
     margin-right: 5px;
 }
+.footer-section-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    text-align: center;
+    padding: .75rem 0;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+}
 
