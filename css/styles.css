@@ -11,6 +11,7 @@ a{
 :root{
     --main-color: rgb(0, 13, 0);
     --orange-color: rgb(224, 60, 0);
+    --sub-color-green: green;
 }
 header{
     display: flex;
@@ -110,6 +111,13 @@ header i, nav i{
 }
 .carousel-writ > div p{
     margin-block: 3rem;
+}
+.carousel-writ > div a{
+    color: white;
+    text-decoration: none;
+    background-color: var(--orange-color);
+    font-size: 1.2rem;
+    padding: .75rem 2rem;
 }
 
 
